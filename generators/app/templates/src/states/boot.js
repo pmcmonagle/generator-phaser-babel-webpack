@@ -1,6 +1,6 @@
 export default class Boot {
     preload() {
-        this.load.image('preloadSprite', 'assets/images/preloadSprite.png');
+        this.load.image('preloadSprite', 'static/assets/images/preloadSprite.png');
     }
 
     create() {
