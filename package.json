@@ -1,0 +1,34 @@
+{
+  "name": "generator-phaser-babel-webpack",
+  "description": "A new Yeoman generator for writing Phaser games in ES2015.",
+  "version": "0.0.1",
+  "author": "Paul McMonagle <mcmonagle.paul@gmail.com> (http://github.com/pmcmonagle)",
+  "license": "MIT",
+  "homepage": "https://github.com/pmcmonagle/generator-phaser-babel-webpack",
+  "keywords": [
+    "yeoman-generator",
+    "phaser",
+    "babel",
+    "webpack",
+    "ES2015"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmcmonagle/generator-phaser-babel-webpack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pmcmonagle/generator-phaser-babel-webpack/issues"
+  },
+  "main": "generators/app/index.js",
+  "files": [
+    "generators/app"
+  ],
+  "scripts": {
+    "test": "mocha tests/"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "yeoman-generator": "^0.22.2"
+  },
+  "devDependencies": {}
+}
