@@ -1,0 +1,34 @@
+{
+    "directories": [
+        "static",
+        "static/assets",
+        "static/assets/images",
+        "static/assets/sounds",
+        "src",
+        "src/states",
+        "src/objects",
+        "src/services",
+        "dist",
+        "test"
+    ],
+
+    "staticAssets": [
+        {"source": "gitignore",         "target": ".gitignore"},
+        {"source": "webpack.config.js", "target": "webpack.config.js"},
+        {"source": "build.config.js",   "target": "build.config.js"},
+
+        {"source": "static/assets/images/example.png",   "target": "static/assets/images/example.png"},
+        {"source": "static/assets/images/preloader.png", "target": "static/assets/images/preloader.png"},
+
+        {"source": "src/main.js",           "target": "src/main.js"},
+        {"source": "src/states/boot.js",    "target": "src/states/boot.js"},
+        {"source": "src/states/preload.js", "target": "src/states/preload.js"},
+        {"source": "src/states/title.js",   "target": "src/states/title.js"},
+    ],
+
+    "templates": [
+        {"source": "_README.md",        "target": "README.md"},
+        {"source": "_package.json",     "target": "package.json"},
+        {"source": "static/index.html", "target": "static/index.html"},
+    ]
+}
