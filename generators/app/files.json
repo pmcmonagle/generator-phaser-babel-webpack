@@ -17,8 +17,8 @@
         {"source": "webpack.config.js", "target": "webpack.config.js"},
         {"source": "build.config.js",   "target": "build.config.js"},
 
-        {"source": "static/assets/images/example.png",   "target": "static/assets/images/example.png"},
-        {"source": "static/assets/images/preloader.png", "target": "static/assets/images/preloadSprite.png"},
+        {"source": "static/assets/images/example.png",       "target": "static/assets/images/example.png"},
+        {"source": "static/assets/images/preloadSprite.png", "target": "static/assets/images/preloadSprite.png"},
 
         {"source": "src/main.js",           "target": "src/main.js"},
         {"source": "src/states/boot.js",    "target": "src/states/boot.js"},
