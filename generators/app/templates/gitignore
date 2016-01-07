@@ -1,0 +1,54 @@
+##########################
+# Operating System Files #
+##########################
+
+# --- OSX --- #
+
+._*
+.apdisk
+.AppleDesktop
+.AppleDouble
+.AppleDB
+.DS_Store
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+Network Trash Folder
+Temporary Items
+
+
+# --- Windows --- #
+
+*.cab
+*.lnk
+*.msi
+*.msm
+*.msp
+
+ehthumbs.db
+Desktop.ini
+Thumbs.db
+$RECYCLE.BIN/
+
+
+########################
+# JavaScript / Node.JS #
+########################
+
+.grunt
+.lock-wscript
+
+*.log
+*.pid
+*.seed
+
+dist
+build
+coverage
+lib-cov
+logs
+pids
+
+node_modules
+bower_components
