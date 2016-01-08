@@ -1,4 +1,4 @@
-<%= _.slugify(projectName) %>
+<%= __.slugify(projectName) %>
 ============
 
 Author  | AUTHOR
