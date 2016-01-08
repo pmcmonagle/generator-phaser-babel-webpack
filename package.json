@@ -1,7 +1,7 @@
 {
   "name":         "generator-phaser-babel-webpack",
   "description":  "A new Yeoman generator for writing Phaser games in ES2015.",
-  "version":      "0.0.1",
+  "version":      "0.0.2",
   "author":       "Paul McMonagle <mcmonagle.paul@gmail.com> (http://github.com/pmcmonagle)",
   "license":      "MIT",
   "homepage":     "https://github.com/pmcmonagle/generator-phaser-babel-webpack",
